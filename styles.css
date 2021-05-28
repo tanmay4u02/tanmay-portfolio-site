@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+	--primary-color: #374151
+}
+
+body {
+	margin: 0px;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*cotainers*/
+.container {
+	padding: 0rem 2rem;
+}
+.container-center {
+	max-width: 600px;
+	margin: auto;
+}
+
+/*navigation*/
+.navigation {
+	background-color: var(--primary-color);
+	border-bottom-left-radius: 1rem;
+	color: white;
+	padding: 2rem 2rem;
+}
+.navigation .nav-brand {
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+.navigation .nav-pills {
+	text-align: right;
+	margin-bottom: 0px;
+}
+.navigation .link {
+	color: white;
+}
+.navigation .link-active {
+	font-weight: bold;
+}
+
+
+/*header*/
+.hero {
+	padding: 4rem 0rem;
+}
+.hero .hero-image {
+	width: 250px;
+	display: block;
+	margin: auto;
+	padding-top: 4rem;
+}
+.hero .hero-heading {
+	color: dimgray;
+	padding: 1rem;
+	text-align: center;
+}
+.hero .hero-description {
+	padding: 0rem 4rem;
+}
+.hero .hero-heading .hero-heading-span {
+	color: var(--primary-color);
+}
+
+/*sections*/
+.section {
+	padding: 2rem;
+}
+.section h2 {
+	text-align: center;
+}
+.ow {
+	background-color: #E5E7EB;
+	max-width: 600px;
+	margin: auto;
+}
+
+/*link*/
+.link {
+	padding: 0.5rem 0.5rem;
+	text-decoration: none;
+}
+.link-primary {
+	padding: 0.5rem 1rem;
+	background-color: var(--primary-color);
+	color: white;
+	border-radius: 0.5rem;
+}
+.link-secondary {
+	border: 2px solid var(--primary-color);
+	color: var(--primary-color);
+	border-radius: 0.5rem;
+}
+.link-centered {
+	text-align: center;
+}
+.link-extra-padded {
+	padding-top: 0.5rem;
+	padding-bottom: 1.5rem;
+}
+
+/*list*/
+.list-non-bullet {
+	list-style: none;
+}
+.list-non-padding-start {
+	padding-inline-start: 0px;
+}
+.list-item-inline {
+	display: inline;
+	padding: 0rem 1rem;
+}
+.list-item-spanText {
+	font-weight: bold;
+}
+
+/*footer*/
+.footer {
+	background-color: var(--primary-color);
+	color: white;
+	padding: 2rem 1rem;
+	text-align: center;
+	border-top-right-radius: 1rem; 
+}
+.footer a{
+	color: white;
+}
