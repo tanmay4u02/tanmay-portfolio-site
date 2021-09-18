@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 :root {
-	--primary-color: #374151
+	--primary-color: #374151;
+	--secondary-color: #6366F1;
 }
 
 body {
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
+}
+
+hr {
+	margin-top: 2.5rem;
+	margin-bottom: 1.5rem;
 }
 
 /*cotainers*/
@@ -34,11 +40,18 @@ body {
 	text-align: right;
 	margin-bottom: 0px;
 }
-.navigation .link {
+.navigation .nav-link {
+	border: 2px solid white;
 	color: white;
+	border-radius: 0.5rem;
+	padding: 0.1rem 0.5rem;
+	text-decoration: none;
 }
 .navigation .link-active {
-	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 0.5rem;
+	background-color: white;
+	color: var(--primary-color);
 }
 
 
@@ -53,7 +66,7 @@ body {
 	padding-top: 4rem;
 }
 .hero .hero-heading {
-	color: dimgray;
+	color: rgb(88, 88, 88);
 	padding: 1rem;
 	text-align: center;
 }
@@ -75,6 +88,7 @@ body {
 	background-color: #E5E7EB;
 	max-width: 600px;
 	margin: auto;
+	border-radius: 2rem;
 }
 
 /*link*/
@@ -85,6 +99,7 @@ body {
 .link-primary {
 	padding: 0.5rem 1rem;
 	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
 	color: white;
 	border-radius: 0.5rem;
 }
@@ -124,6 +139,33 @@ body {
 	text-align: center;
 	border-top-right-radius: 1rem; 
 }
-.footer a{
+.footer .icon{
+	width: 30px;
+}
+
+
+
+.project-title {
+	font-weight: bold;
+}
+
+.hover-exists a:hover {
+	border: 2px solid var(--secondary-color);
+	background-color: var(--secondary-color);
+	border-radius: 0.5rem;
 	color: white;
+}
+
+nav a:hover {
+	border: 2px solid var(--secondary-color);
+	background-color: var(--secondary-color);
+	border-radius: 0.5rem;
+	color: white;
+}
+
+.section:hover .title{
+	color: var(--secondary-color);
+}
+.hero:hover .title{
+	color: var(--secondary-color);
 }
