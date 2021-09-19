@@ -10,7 +10,7 @@ body {
 	font-family: 'Roboto Slab', serif;
 }
 
-hr {
+.hr {
 	margin-top: 2.5rem;
 	margin-bottom: 1.5rem;
 }
@@ -63,7 +63,7 @@ hr {
 	width: 250px;
 	display: block;
 	margin: auto;
-	padding-top: 4rem;
+	padding-top: 3rem;
 }
 .hero .hero-heading {
 	color: rgb(88, 88, 88);
@@ -104,6 +104,7 @@ hr {
 	border-radius: 0.5rem;
 }
 .link-secondary {
+	padding: 0.5rem 1rem;
 	border: 2px solid var(--primary-color);
 	color: var(--primary-color);
 	border-radius: 0.5rem;
@@ -168,4 +169,15 @@ nav a:hover {
 }
 .hero:hover .title{
 	color: var(--secondary-color);
+}
+
+.make-flex {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.make-flex a {
+	margin: 0.5rem;
 }
