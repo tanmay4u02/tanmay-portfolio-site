@@ -57,13 +57,13 @@ body {
 
 /*header*/
 .hero {
-	padding: 4rem 0rem;
+	padding: 2rem 0rem;
 }
 .hero .hero-image {
 	width: 250px;
 	display: block;
 	margin: auto;
-	padding-top: 2rem;
+	padding-top: 1rem;
 }
 .hero .hero-heading {
 	color: rgb(88, 88, 88);
